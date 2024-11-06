@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" >
+    <link rel="icon" type="image/x-icon" href="Assets/Loop Logo Gradient.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Press+Start+2P&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>LoopMIT</title>
+    <style>
+        *
+        {
+            font-family: 'Tomorrow', sans-serif;
+        }
+        .navbar
+        {
+          background-color: rgba(0,0,0,0.8);
+        }
+        .navbar-content:hover
+        {
+          color:  rgb(126, 6, 255);
+          transform: scale(1.1);
+        }
+        .navbar-custom
+        {
+            height: 80px;
+        }
+        .social-media:hover {
+      transform: scale(1.2);
+      transition: transform 0.3s ease;
+      background-color: rgb(72, 26, 115);
+    }
+    .social-media
+    {
+      padding: auto;
+    }
+    </style>
+</head>
+<body style="background-color: black;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!--Navbar--> 
+   <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="Assets/Loop Logo White.png" alt="LoopMIT" class="src mx-3" style="width: 100px; height: 100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="index.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-house"></i> HOME</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="team.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-users-rectangle"></i> TEAM</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="gallery.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-images"></i> GALLERY</h5></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link text-purple fw-bolder" href="crowdfunding.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-landmark"></i> CROWDFUNDING</h5></a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="sponsors.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-user-tie"></i> SPONSORS</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="newsletter.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-regular fa-newspaper"></i> NEWSLETTER</h5></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Newsletter Pages-->
+  <section class="container mb-5" >
+    <div class="d-flex justify-content-center align-items-center" data-aos="fade-right" data-aos-once="false">
+      <h1 class="text-purple text-center fw-bolder mb-5">EDITION 1 FEB 2024</h1>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide mb-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="text-center">
+                <img src="Assets/FebNewsletter1.webp" alt="Page 1" style="max-width: 50%;">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="Assets/FebNewsletter2.webp" alt="Page 1" style="max-width: 50%;">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="Assets/FebNewsletter3.webp" alt="Page 1" style="max-width: 50%;">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="Assets/FebNewsletter4.webp" alt="Page 1" style="max-width: 50%;">
+            </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section>
+    <div class="bg-dark">
+        <div class="d-flex align-items-center justify-content-center gap-3 p-3">
+          <div class="mt-2">
+            <h5 class="text-purple fw-bolder">Connect With Us :</h5>
+          </div>
+          <div>
+            <a href="https://linktr.ee/loopmanipal" target="_blank">
+              <img class="social-media" src="Assets/LinkTree.png" alt="LinkTree" style="width: 56px;height: 56px;">
+            </a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/loopmit/" target="_blank">
+              <img class="social-media" src="Assets/Instagram.png" alt="Instagram" style="width: 56px;height: 56px;">
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/company/loopmit" target="_blank">
+              <img  class="social-media"src="Assets/LinkedIn.png" alt="LinkedIn" style="width: 56px;height: 56px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init({
+                duration: 1500,
+                once: true,
+              });
+            </script>
+
+
+</body>

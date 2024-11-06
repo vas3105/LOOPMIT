@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LoopMIT</title>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/x-icon" href="Assets/Loop Logo Gradient.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Press+Start+2P&family=Rubik:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<style>
+    .navbar-content:hover
+        {
+        color: rgb(126, 6, 255);
+        transform: scale(1.1);
+        
+        }
+        .navbar
+        {
+        background-color: rgba(0,0,0,0.8);
+        top: 10;
+        position: sticky;
+        
+        }
+        *
+        {
+            font-family: 'Tomorrow', sans-serif;
+        }
+
+        .overview
+        {
+        background-color: black;
+        }
+        .hero
+        {
+        position: relative;
+        }
+        .hero video
+        {
+        height: auto;
+        width: 100%;
+        background-position: absolute;
+        z-index:10;
+        object-fit: cover;
+        }
+        .university
+        {
+        position: relative;
+        }
+        .university img
+        {
+        height: auto;
+        width: 100%;
+        background-position: absolute;
+        z-index:10;
+        object-fit: cover;
+        }
+        .card
+        {
+        box-shadow: 0 0 1px 1px #8f00ff;
+        }
+        .title-text
+        {
+        box-shadow: 0 0 1px 1px rgb(15, 0, 0);
+        }
+        .social-media:hover
+        {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+            background-color: rgb(72, 26, 115);
+        }
+        .social-media
+        {
+            padding: auto;
+        }
+        @media (max-width: 768px)
+        {
+        .title-text
+        {
+            text-align: center;
+            
+        }
+        }
+        
+</style>
+</head>
+<body class="bg-dark">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+<!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="Assets/Loop Logo White.png" alt="LoopMIT" class="src mx-3" style="width: 100px; height: 100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="index.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-house"></i> HOME</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="team.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-users-rectangle"></i> TEAM</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="gallery.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-images"></i> GALLERY</h5></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link text-purple fw-bolder" href="crowdfunding.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-landmark"></i> CROWDFUNDING</h5></a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="sponsors.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-user-tie"></i> SPONSORS</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="newsletter.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-regular fa-newspaper"></i> NEWSLETTER</h5></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero Video Section -->
+<div class="hero">
+    <video autoplay loop muted>
+        <source src="Assets/Loop Video.mp4" type="video/mp4"/>
+    </video>
+</div>
+
+<!-- Overview Section -->
+<section class="overview p-5">
+    <div class="d-flex justify-content-center align-items-center mb-3">
+    <div class="p-3 mt-2 mb-3 text-center title-text" style="background-color: #6f2da8;">
+        <h3 class="text-white fw-bolder fs-2">Founded in 2018, Loop MIT is the Official Hyperloop Student Project Team of MIT, Manipal</h3>       
+    </div>
+    </div>
+    <div class="">
+    <div class=" title-body-text">
+        <p class="text-white text-center fw-bolder mt-4 me-4 ms-4 fs-4 p-1" >
+        We are a group of highly motivated students looking to make the fifth mode of transportation a reality! 
+        With a relentless focus on sustainability, speed, and safety, we are contributing towards developing high-speed, 
+        sustainable mobility solutions.
+        <br>
+        <br>
+        We have cleared the first rounds of the prestigious European Hyperloop Week (EHW) in the years 2022 and 2023, 
+        which were held in Europe.
+        <br>
+        <br>
+        Currently making our prototype hyperloop pod, we aim to revolutionize global transportation.</p>
+    </div>
+    </div>
+</section>
+
+<!--Subsystems-->
+<section class="container " >
+    <div class="d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-once="false">
+      <h1 class="text-purple text-center fw-bolder mb-5">SUBSYSTEMS</h1>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide mb-3" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card bg-black border text-black" style="max-width:800px; margin: auto;">
+            <div class="card-body text-center py-4 px-3">
+              <h3 class="card-title text-purple mb-2 fw-bold fs-3 text-center">MECHANICAL <i class="bi bi-tools text-white"></i></h3>
+              <div class="border border-white mb-3"></div>
+              <p class="card-text text-start text-white fw-semibold">The mechanical subsystem of the hyperloop pod plays a fundamental role in ensuring the 
+                overall functionality, safety, and performance of the vehicle. It encompasses a variety of components like the 
+                aeroshell, chassis, braking system, lateral control module, and vertical stability system.<br><br>
+                Together, these components work harmoniously to create a reliable and safe mechanical infrastructure, contributing to the 
+                vehicle's optimal operation in its intended environment within a hyperloop system.
+                <br><br></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card bg-black border text-black" style="max-width:800px; margin: auto;">
+            <div class="card-body text-center py-4 px-3">
+              <h3 class="card-title text-purple mb-2 fw-bold fs-3 text-center">ELECTRONICS <i class="bi bi-lightning-fill text-white"></i></h3>
+              <div class="border border-white mb-3"></div>
+              <p class="card-text text-start text-white fw-semibold">The electronics and electrical subsystem is responsible for managing power,
+                using a Battery Management System (BMS), controlling various systems, using different sensors and ensuring effective connectivity between 
+                different parts of the pod.
+                <br>
+                <br>
+                Also, our Hyperloop communication system is centered around Raspberry Pi and ESP32, 
+                enabling real-time updates through UART, Node.js, and Socket.io fused with wireless technology and antennas to enhance reliability.</p>
+            </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="card bg-black border text-black" style="max-width:800px; margin: auto;">
+            <div class="card-body text-center py-4 px-3">
+            <h3 class="card-title text-purple mb-2 fw-bold fs-3 text-center">LEVITATION & PROPULSION <i class="bi bi-rocket-takeoff-fill text-white"></i></h3>
+            <div class="border border-white mb-3"></div>
+            <p class="card-text text-start text-white fw-semibold">The propulsion system is crucial for achieving the unprecedented
+                speeds and efficiency associated with this cutting-edge transportation concept. We use a meticulously engineered 
+                single-sided linear induction motor, which is the driving force behind propelling the pod through a partial vacuum tube at high speeds.
+                <br><br>
+                The levitation department is responsible for maintaining the vehicle's elevation 
+                above the track via magnetic levitation to lift the pod and keep it suspended during travel.<br><br></p>
+            </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="card bg-black border text-black" style="max-width:800px; margin: auto;">
+            <div class="card-body text-center py-4 px-3">
+            <h3 class="card-title text-purple mb-2 fw-bold fs-3 text-center">MANAGEMENT <i class="bi bi-people-fill text-white"></i></h3>
+            <div class="border border-white mb-3"></div>
+            <p class="card-text text-start text-white fw-semibold">
+                The management subsystem plays a crucial role in overseeing and coordinating the other subsystems while
+                ensuring that the team's objectives are met successfully on time, within budget via an organized and coordinated
+                endeavor.
+
+                <br><br>
+                Our Graphic designers infuse creativity and visual appeal into the team's identity while the Web Developers 
+                contribute their technical prowess to maintain an engaging and user-friendly online presence, showcasing the 
+                team's achievements and enhancing accessibility. 
+            </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </section>
+
+
+<!-- University Section -->
+<section class="university">
+    <div class="mt-2" style="background-color: #6f2da8;">
+    <h1 class="text-white text-center mt-2 mb-2 pt-5 fw-bolder">OUR UNIVERSITY</h1>
+    <div class="container">
+        <div class="row justify-content-start ms-2 gap-5 p-4">
+        <div class="col-12 col-md-6 col-lg-6">
+            <p class="text-white text-start fw-bolder">MAHE Manipal is one of India's leading academic and research 
+            institutions. It has been granted Institution of Eminence status by the Ministry of Education, Government of India.<br>
+            Ever since the foundation in 1953, we have applied our research efforts to develop scientific knowledge with an 
+            emphasis on interdisciplinary research and engagement with wider research community.<br><br>
+            Communication, Leadership, Teamwork, Problem Solving, Planning, Motivation and Enthusiasm, Adaptability, Flexibility, 
+            and Ability to Build Relationships, all mandate engineering education to be experiential, practical, relevant,
+            and up to date. Keeping this in mind, as an experiment, in 2007, 
+            the Institute came up with the idea of Major Student Projects, wherein, the institute provides infrastructure to build 
+            a technical project to compete in national & international competitions. Currently, there are 24 Major Student Project 
+            Teams operating in MIT campus and we are proud to be one of them.
+            </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5 mb-5" style="position: relative;">
+            <img class="img-fluid manipal" src="Assets/ManipalUni.jpg" alt="Manipal University">
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark">
+    <div class="d-flex align-items-center justify-content-center gap-3 p-3">
+    <h5 class="text-purple fw-bolder">Connect With Us:</h5>
+    <a href="https://linktr.ee/loopmanipal" target="_blank"><img class="social-media" src="Assets/LinkTree.png" alt="LinkTree" style="width: 40px; height: 40px;"></a>
+    <a href="https://www.instagram.com/loopmit/" target="_blank"><img class="social-media" src="Assets/Instagram.png" alt="Instagram" style="width: 40px; height: 40px;"></a>
+    <a href="https://www.linkedin.com/company/loopmit" target="_blank"><img class="social-media" src="Assets/LinkedIn.png" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
+    </div>
+</footer>
+</body>
+</html>
