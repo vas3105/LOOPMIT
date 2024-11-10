@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="index.css">
+<link rel="icon" type="image/x-icon" href="Assets/Loop Logo Gradient.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Press+Start+2P&family=Rubik:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<style>
+    .navbar-content:hover
+        {
+        color: rgb(126, 6, 255);
+        transform: scale(1.1);
+        
+        }
+        .navbar
+        {
+        background-color: rgba(0,0,0,0.8);
+        top: 10;
+        position: sticky;
+        
+        }
+        .body
+        {
+            font-family: 'Tomorrow', sans-serif;
+        }
+
+        
+        .social-media:hover
+        {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+            background-color: rgb(72, 26, 115);
+        }
+        .social-media
+        {
+            padding: auto;
+        }
+        @media (max-width: 768px)
+        {
+        .title-text
+        {
+            text-align: center;
+            
+        }
+        }
+        .contact-form {
+      background-color: #af5ef7;
+      border-radius: 10px;
+      padding: 20px 30px;
+      width: 100%;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(252, 250, 250, 0.2);
+    }
+    .contact-form h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .contact-form label {
+      display: block;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-size: 1em;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #2575fc;
+      outline: none;
+      box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+    }
+    .contact-form button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #2575fc;
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .contact-form button:hover {
+      background-color: #1a5bb8;
+    }
+    .required {
+      color: red;
+      margin-left: 5px;
+      
+    }
+</style>
+</head>
+<body class="bg-dark">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+<!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="Assets/Loop Logo White.png" alt="LoopMIT" class="src mx-3" style="width: 100px; height: 100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="index.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-house"></i> HOME</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="team.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-users-rectangle"></i> TEAM</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="gallery.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-images"></i> GALLERY</h5></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link text-purple fw-bolder" href="crowdfunding.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-landmark"></i> CROWDFUNDING</h5></a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="sponsors.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid fa-user-tie"></i> SPONSORS</h5></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white fw-bolder" href="newsletter.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-regular fa-newspaper"></i> NEWSLETTER</h5></a>
+          </li>
+          <li>
+            <a class="nav-link text-white fw-bolder" href="contact.html"><h5 class="fw-bolder navbar-content mx-3 my-1"><i class="fa-solid  fa-book"></i> CONTACT US</h5></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--forms-->
+<div class="contact-form">
+  <h2 class=" fw-bolder text-white">Contact Us</h2>
+  <form id="contactForm" action="https://getform.io/f/bollmeya" method="post">
+    <label for="name">Name<span class="required">*</span></label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="phone">Phone No<span class="required">*</span></label>
+    <input type="text" id="phone" name="phone" placeholder="0000-000-000" required>
+
+    <label for="email">Email-ID<span class="required">*</span></label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="message">Message<span class="required">*</span></label>
+    <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<!-- Footer Section -->
+<footer class="bg-dark footer">
+    <div class="d-flex align-items-center justify-content-center gap-3 p-3">
+    <h5 class="text-purple fw-bolder">Connect With Us:</h5>
+    <a href="https://linktr.ee/loopmanipal" target="_blank"><img class="social-media" src="Assets/LinkTree.png" alt="LinkTree" style="width: 40px; height: 40px;"></a>
+    <a href="https://www.instagram.com/loopmit/" target="_blank"><img class="social-media" src="Assets/Instagram.png" alt="Instagram" style="width: 40px; height: 40px;"></a>
+    <a href="https://www.linkedin.com/company/loopmit" target="_blank"><img class="social-media" src="Assets/LinkedIn.png" alt="LinkedIn" style="width: 40px; height: 40px;"></a>
+    </div>
+</footer>
+</body>
+</html>
